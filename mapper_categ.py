@@ -8,6 +8,6 @@ def mapper():
 			continue
 		date, time, store, item, cost, payment = data 
 		
-		print "{0}\t{1}".format(store,cost)
+		print "{0}\t{1}".format(item,cost)
 
 mapper()
